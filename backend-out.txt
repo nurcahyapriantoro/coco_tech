@@ -1,0 +1,3 @@
+[db] Admin password synced from env for: admin
+CocoTech backend running on port 4000
+Environment: production

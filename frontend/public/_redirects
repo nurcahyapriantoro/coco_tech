@@ -1,0 +1,3 @@
+# SPA fallback — all routes serve index.html
+# Required for React single-page apps on Digital Ocean App Platform
+/*    /index.html   200

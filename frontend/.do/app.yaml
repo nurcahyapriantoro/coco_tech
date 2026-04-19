@@ -1,0 +1,20 @@
+name: cocotech
+
+static_sites:
+  - name: cocotech-frontend
+    github:
+      repo: your-github-username/cocotech
+      branch: main
+      deploy_on_push: true
+    source_dir: frontend
+    build_command: npm run build
+    output_dir: dist
+    envs:
+      - key: VITE_API_URL
+        value: ""
+        scope: BUILD_TIME
+    catchall_document: index.html
+    routes:
+      - path: /
+
+region: sgp1
