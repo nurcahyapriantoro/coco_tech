@@ -218,7 +218,7 @@ const copy = {
       id: 'IPB University · S1 Ilmu Komputer · 2022–2026',
       en: 'IPB University · B.Sc. Computer Science · 2022–2026',
     },
-    email: 'nurcahya.priantoro@apps.ipb.ac.id',
+    email: 'admin@cocotech.studio',
     phone: '+6281283321577',
     linkedin: 'https://linkedin.com/in/nurcahya-priantoro',
     github: 'https://github.com/nurcahyapriantoro',

@@ -56,10 +56,10 @@ export default function KontakSection({ lang }) {
               <div>
                 <div className="contact-info-label">Email</div>
                 <a
-                  href="mailto:nurcahya.priantoro@apps.ipb.ac.id"
+                  href="mailto:admin@cocotech.studio"
                   className="contact-info-value"
                 >
-                  nurcahya.priantoro@apps.ipb.ac.id
+                  admin@cocotech.studio
                 </a>
               </div>
             </div>
