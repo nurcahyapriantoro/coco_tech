@@ -4,4 +4,4 @@ Allow: /
 # Block direct access to build assets (optional — crawlers won't index them anyway)
 Disallow: /assets/
 
-Sitemap: https://cocotech.id/sitemap.xml
+Sitemap: https://cocotech.studio/sitemap.xml

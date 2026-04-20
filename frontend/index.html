@@ -25,7 +25,7 @@
       property="og:description"
       content="IT agency freelance untuk UMKM & startup Indonesia. Web dev, AI, data engineering — by Nurcahya Priantoro."
     />
-    <meta property="og:image" content="https://cocotech.studio/og-image.png" />
+    <meta property="og:image" content="https://cocotech.studio/og-image.svg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="id_ID" />
@@ -38,11 +38,211 @@
       name="twitter:description"
       content="IT agency freelance untuk UMKM & startup Indonesia. Web dev, AI, data engineering."
     />
-    <meta name="twitter:image" content="https://cocotech.studio/og-image.png" />
+    <meta name="twitter:image" content="https://cocotech.studio/og-image.svg" />
 
     <!-- ── Favicon ────────────────────────────────────────────────── -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- ── Structured Data (JSON-LD) ────────────────────────────── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://cocotech.studio/#website",
+          "url": "https://cocotech.studio/",
+          "name": "CocoTech",
+          "description": "IT agency freelance untuk UMKM dan startup Indonesia — web development, data engineering, AI integration.",
+          "inLanguage": "id-ID",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://cocotech.studio/?s={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://cocotech.studio/#business",
+          "name": "CocoTech",
+          "alternateName": "CocoTech IT Agency",
+          "url": "https://cocotech.studio/",
+          "logo": "https://cocotech.studio/favicon.svg",
+          "image": "https://cocotech.studio/og-image.svg",
+          "description": "CocoTech adalah IT agency freelance yang membantu UMKM dan startup Indonesia go-digital. Layanan meliputi web development, data engineering, AI integration, dan mobile app.",
+          "telephone": "+6281283321577",
+          "email": "nurcahya.priantoro@apps.ipb.ac.id",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bogor",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -6.5964,
+            "longitude": 106.8062
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          "priceRange": "Rp1.250.000 - Custom",
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "08:00",
+            "closes": "22:00"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/nurcahya-priantoro",
+            "https://github.com/nurcahyapriantoro",
+            "https://www.instagram.com/nurcahyapriantoro"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Layanan CocoTech",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website & Aplikasi Web",
+                  "description": "Pembuatan website profesional dan aplikasi web dengan React, Next.js, Laravel, dan Tailwind CSS untuk UMKM dan startup."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Data Engineering & AI Integration",
+                  "description": "Pengolahan data bisnis, dashboard analitik dengan Power BI, dan integrasi AI/ML menggunakan Python, FastAPI, dan OpenAI API."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Blockchain & Sistem Terdistribusi",
+                  "description": "Pengembangan sistem blockchain dengan Hyperledger Fabric, Substrate, dan Polkadot untuk transparansi dan keamanan data."
+                }
+              }
+            ]
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "25"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://cocotech.studio/#founder",
+          "name": "Nurcahya Priantoro",
+          "jobTitle": "Data Engineer & AI Specialist, Founder CocoTech",
+          "url": "https://cocotech.studio/#tentang",
+          "image": "https://cocotech.studio/profilepicture.png",
+          "email": "nurcahya.priantoro@apps.ipb.ac.id",
+          "telephone": "+6281283321577",
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "IPB University",
+              "url": "https://ipb.ac.id"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Bangkit Academy by Google",
+              "url": "https://grow.google/intl/id_ALL/bangkit/"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Polkadot Blockchain Academy"
+            }
+          ],
+          "worksFor": {
+            "@id": "https://cocotech.studio/#business"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/nurcahya-priantoro",
+            "https://github.com/nurcahyapriantoro",
+            "https://www.instagram.com/nurcahyapriantoro"
+          ],
+          "knowsAbout": [
+            "Web Development",
+            "Data Engineering",
+            "Artificial Intelligence",
+            "Blockchain",
+            "Cloud Computing",
+            "React",
+            "Python",
+            "FastAPI",
+            "Power BI"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://cocotech.studio/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Berapa lama proses pengerjaan website?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Landing page sederhana selesai dalam 5–7 hari kerja. Website multi-halaman membutuhkan 2–4 minggu. Proyek kompleks (dashboard, e-commerce, sistem custom) 1–3 bulan tergantung scope."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah bisa revisi setelah selesai?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, setiap paket sudah termasuk revisi. Paket Mahasiswa/UMKM: 2 revisi. Paket Starter: 5 revisi. Paket Business dan Enterprise: revisi tidak terbatas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Saya tidak paham teknis, apakah tetap bisa menggunakan layanan CocoTech?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "100% bisa. Kami menjelaskan semua hal dalam bahasa yang mudah dipahami tanpa jargon teknis. Anda cukup sampaikan kebutuhan bisnis Anda, kami yang urus semua bagian teknisnya."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah harga sudah termasuk hosting dan domain?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, semua paket sudah termasuk hosting gratis 1 tahun. Domain bisa disediakan terpisah mulai Rp 100.000 per tahun, atau kami bantu konfigurasi domain yang sudah Anda miliki."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Metode pembayaran apa saja yang diterima?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kami menerima transfer bank (BCA, Mandiri, BNI), dompet digital (GoPay, OVO, Dana), dan cicilan untuk proyek di atas Rp 5.000.000."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah CocoTech bisa handle proyek besar dan enterprise?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya. Founder CocoTech memiliki pengalaman langsung sebagai Data Engineer di Bank Indonesia dan membangun sistem untuk PT Pertamina. Kami siap handle proyek enterprise dengan SLA dan dedicated project manager."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 
     <!-- ── Fonts ─────────────────────────────────────────────────── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
